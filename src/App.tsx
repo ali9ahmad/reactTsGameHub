@@ -1,11 +1,7 @@
-import Message from './Message';
+import { Button, ButtonGroup } from '@chakra-ui/react';
 
 function App() {
-  return (
-    <div>
-      <Message />
-    </div>
-  );
+  return <Button colorScheme="blue">Button</Button>;
 }
 
 export default App;
